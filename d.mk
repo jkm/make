@@ -63,7 +63,7 @@ ifeq ($(DC), ldc2)
 	DC_UNITTEST_FLAG               := -unittest
 	DC_RELEASE_FLAG                := -release
 	DC_DEBUG_FLAG                  := -d-debug
-	DC_VERSION_FLAG                := -version=
+	DC_VERSION_FLAG                := -d-version=
 	DC_NOOBJECT_FLAG               := -o-
 	DC_STATIC_LIBRARY_FLAG         := -lib
 	DC_SHARED_LIBRARY_FLAG         := -shared
