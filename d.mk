@@ -59,7 +59,7 @@ ifeq ($(DC), ldc2)
 	DC_SYMBOLICDEBUGINFO_FLAG      := -g
 	DC_INLINE_FLAG                 := -enable-inlining
 	DC_OPTIMIZE_FLAG               := -O5
-	DC_NOBOUNDSCHECK_FLAG          := -disable-boundscheck
+	DC_NOBOUNDSCHECK_FLAG          := -boundscheck=off
 	DC_UNITTEST_FLAG               := -unittest
 	DC_RELEASE_FLAG                := -release
 	DC_DEBUG_FLAG                  := -d-debug
